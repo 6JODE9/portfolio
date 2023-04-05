@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../pics/green.png);
+    background-size: cover;
+    color: rgb(37, 170, 88);
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+}
+h1{
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px #23e609;}
+h2{
+    margin: 0;
+    font-weight: 400;
+    display: inline;
+}
+.box{
+    background: #000000;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+border-radius: 0.5rem;
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.header_left{
+    image-resolution: 1rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.first_name{
+
+    font-weight: 400;
+    margin: 0;
+}
+
+.header_right{
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}
+.header-right p{
+    display: inline;
+}
+.grey{
+    background: rgb(0, 0, 0);
+    color: #f5eaea;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-shadow: 3px 3px 3px #23e609;
+}
+.table{
+    border: 2px solid #000;
+    margin: 1rem 0;
+    width: 20%;
+   text-align: center; 
+   border-collapse: collapse;
+}
+td,th{
+    border: 1px solid#000;
+    padding: 0.4rem;
+}
+.icons3 ul li a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 1px;  
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 50px;
+}
+.icons3 ul li{
+    list-style-type: none;
+}
+.icons3{
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 5%;
+}
